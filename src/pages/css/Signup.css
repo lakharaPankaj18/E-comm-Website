@@ -1,0 +1,75 @@
+.signup{
+    background: burlywood;
+    width: 100%;
+    height: 85vh;
+    padding-top: 100px;
+}
+.container{
+ position: relative;
+ top: -43px;
+    width: 300px;
+    margin: auto;
+    padding: 40px 60px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    margin: 5px 0px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 10px;
+   margin-top: 30px;
+}
+.input-field input{
+    height: 35px;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+.container button{
+ position: relative;
+ left: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    margin-top: 30px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: black;
+    color: white;
+}
+.container button:disabled{
+    background-color: #5c5c5c;
+}
+.have-account{
+    margin-top: 15px;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.have-account span{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.form-error{
+    top: -20px;
+   text-align: center;
+    color: red;
+}
+.user-already{
+    color: red;
+}

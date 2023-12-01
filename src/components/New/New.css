@@ -1,0 +1,46 @@
+.new{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    background: burlywood;
+    justify-content: space-around;
+    animation: slide-left-fade-in 0.5s ease-out forwards;
+}
+
+.new-left button{
+margin-bottom: 10px;
+height: 30px;
+width: 200px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.new-left button:hover{
+    background-color: black;
+    color: white;
+}
+.new-right{
+    display: flex;
+}
+
+.new-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .new-left button{
+        width: 120px;
+    }
+    
+}
+@keyframes slide-left-fade-in {
+    0%{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

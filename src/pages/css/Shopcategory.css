@@ -1,0 +1,29 @@
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    margin-left: 47px;
+    animation: slide-up-fade-in 0.3s ease-out forwards;
+}
+.indexsort{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.indexsort p span{
+    font-weight: bold;
+}
+
+@keyframes slide-up-fade-in {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

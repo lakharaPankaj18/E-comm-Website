@@ -1,0 +1,33 @@
+.productlist-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 45px;
+    animation: slide-up-fade-in 0.3s ease-out forwards;
+}
+.product-list h1{
+    font-size: 1.5rem;
+}
+.list-header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   
+}
+.list-header input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+@keyframes slide-up-fade-in {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

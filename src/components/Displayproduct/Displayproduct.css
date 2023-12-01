@@ -1,0 +1,38 @@
+.displayproduct{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.rightsection{
+    width: 35%;
+    height: 65vh;
+}
+.leftsection img{
+width: 250px;
+height: 300px;
+}
+.star-rating{
+    display: flex;
+   
+}
+.star-rating p{
+    position: relative;
+    top: -17px;
+    left: 12px;
+}
+.star-rating img{
+width: 20px;
+height: 20px;
+}
+
+.rightsection button{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+   margin-top: 20px;
+}
+.rightsection button:hover{
+    background-color: black;
+    color: white;
+}

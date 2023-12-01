@@ -1,0 +1,16 @@
+.item{
+    width: 350px;
+   
+}
+.item p{
+    margin: 6px 0;
+    
+}
+.item img{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    
+}
+
